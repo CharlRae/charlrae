@@ -26,7 +26,7 @@ h2{
 }
 
 p{
-	font-size: 2vh;
+	font-size: 2vh;	
 }
 
 a, a:visited, a:hover, a:active {
@@ -108,4 +108,8 @@ html, body {
 	scroll-margin-top: 0;
 	padding: 8vh;
 	gap: 3vh;
+}
+
+#errorMessage{
+	padding: 5vh;
 }
