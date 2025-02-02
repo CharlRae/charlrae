@@ -1,0 +1,141 @@
+@font-face{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+html{
+	font-family: sans-serif;
+	text-align: center;
+	background-image: url(./media/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, p{
+	margin: 0;
+	color: #DDDDDD;
+	text-align: center;
+	text-decoration-color: #DDDDDD;
+}
+
+u{
+	text-decoration-color: #DDDDDD;
+}
+
+h1{
+	font-size: 8vh;
+}
+
+h2{
+	font-size: 6vh;
+}
+
+h3{
+	font-size:4vh;
+}
+
+h4{
+	font-size:3vh;
+	font-weight: lighter;
+}
+
+p{
+	font-size: 2vh;
+}
+
+
+a, a:visited, a:hover, a:active {
+	color: inherit;
+}
+
+
+html, body {
+	height: 100%;
+	max-width: 100%;
+	width: 100%;
+	margin: 0;
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+.socialButton{
+	width: 100%;
+	border-width: 0.2vh;
+	border-style: solid;
+	border-color: #CCCCCC;
+	border-radius: 4vh;
+	padding: 1vh;
+	transition-duration: 0.1s;
+}
+
+.socialButton:hover{
+	transform: scale(1.1);
+	transition-duration: 0.1s;
+	background-color:rgba(0, 0, 0, 0.05);
+}
+
+.socialIcon{
+	
+	position: absolute;
+	right: 0;
+	height: 2vh;
+}
+
+#profilePicture{
+	width: 20vh;
+	height: auto;
+	border-radius: 50%;
+}
+
+#introContent{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: auto;
+	max-width: 100vh;
+	height: auto;
+	align-items: center;
+	padding: 3vh;
+	gap: 3vh;
+}
+
+#header{
+	display: flex;
+	width: 80%;
+	max-width: 70vh;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	height: auto;
+}
+
+#socialButtonsBox{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	gap: 1vh;
+	min-width: 25vh;
+}
+
+#aboutMe{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	min-width: 50vh;
+	scroll-margin-top: 0;
+	padding: 8vh;
+	gap: 3vh;
+}
+
+#errorMessage{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
